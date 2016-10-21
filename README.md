@@ -11,5 +11,9 @@ method for logging in to OpenShift, definitely do that.
 ## Cron Job
 Create a cron job like this...
 
-0 1 * * * root <$EXPORT_DIR>/project_export.sh > /dev/null
+0 1 * * * root <$EXPORT_DIR>/ose-project-export.sh > /dev/null
+
+## Git User
+You will need to provide access to this Git repository to your root user, likely
+by setting up a new SSH key and adding it to your Github or private Git repo.
 
