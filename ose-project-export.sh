@@ -21,7 +21,7 @@
 EXPORT_DIR=$(pwd)
 GIT_BRANCH="master"
 OSE_NAME="OpenShift Project Exporter"
-OSE_EMAIL="openshift@osm101.dev.nm.cbc.ca"
+OSE_EMAIL="openshift@somedomain.ca"
 
 
 ##############################
