@@ -45,7 +45,7 @@ OLDIFS=$IFS
 # Create an array of the Projects in OpenShift Enterprise 
 IFS=$'\n' command eval "PROJECTS=($(oc get project | awk 'FNR>1 {print $1}'))"
 
-# Iterate throught eh array of Projects and export to yaml
+# Iterate through the array of Projects and export to yaml
 for PROJECT in ${PROJECTS[@]}; do
     GLOG=$(oc project $PROJECT)
     echo "$(date) : $GLOG" >> $LOG_FILE
