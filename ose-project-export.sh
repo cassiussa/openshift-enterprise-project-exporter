@@ -18,7 +18,7 @@
 ############################################################
 
 # MODIFY THESE VARIABLES
-EXPORT_DIR=$(pwd)                     # This script usually performs exports to wherever you clone this repo
+EXPORT_DIR="/location/of/this/script/"# This script usually performs exports to wherever you clone this repo
 GIT_BRANCH="master"                   # The branch that the exports will be committed to
 OSE_NAME="OpenShift Project Exporter" # This name will be used by Git when the commit happens
 OSE_EMAIL="openshift@somedomain.ca"   # This email will be used by Git when the commit happens
